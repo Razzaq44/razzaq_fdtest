@@ -37,6 +37,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
         <h3>Set Up The Environment</h3> 
         <p>Copy .env.example to .env:</p>
         <pre>cp .env.example .env</pre> </li>
+        <p>Make sure all the field that needed is fulfill such as (smtp, db, etc.) smtp is important to sending verification email,  I use gmail. So I can use real mail verification.
     <li> <h3>Generate Application Key</h3>
         <p>Run the command to generate the app key:</p>
         <pre>php artisan key:generate</pre> </li> <li> 
@@ -46,6 +47,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
         <h3>Migrate Database</h3> 
         <p>Run the migrations to set up your database schema:</p>
         <pre>php artisan migrate</pre> </li>
+        <p>And import the database to your own DB</p>
     <li> 
         <h3>Start the Development Server</h3> 
         <p>Run the server to start your application:</p> 
