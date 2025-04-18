@@ -49,7 +49,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     <li> 
         <h3>Start the Development Server</h3> 
         <p>Run the server to start your application:</p> 
-        <pre>php artisan serve</pre>
+        <pre>composer run dev</pre>
     </li> 
 </ol>
 
