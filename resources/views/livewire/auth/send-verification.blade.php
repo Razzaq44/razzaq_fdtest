@@ -1,0 +1,1 @@
+<flux:button class="p-4!" variant="ghost" wire:click="sendVerificationEmail" type="button">Verification Now</flux:button>
