@@ -21,41 +21,39 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Installation Instructions
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<ol> 
+    <li> 
+        <h3>Clone the Repository</h3> 
+        <p>Clone the repository to your local machine:</p> 
+        <pre>git clone https://github.com/Razzaq44/razzaq_fdtest</pre> 
+    </li> 
+    <li> 
+        <h3>Install Dependencies</h3> 
+        <p>Make sure you have Composer installed. Then, run the following command:</p> 
+        <pre>composer install && npm install</pre> </li> 
+    <li> 
+        <h3>Set Up The Environment</h3> 
+        <p>Copy .env.example to .env:</p>
+        <pre>cp .env.example .env</pre> </li>
+    <li> <h3>Generate Application Key</h3>
+        <p>Run the command to generate the app key:</p>
+        <pre>php artisan key:generate</pre> </li> <li> 
+            <h3>Set Up Database</h3> <p>Configure your database connection in the .env file.</p>
+        </li> 
+    <li> 
+        <h3>Migrate Database</h3> 
+        <p>Run the migrations to set up your database schema:</p>
+        <pre>php artisan migrate</pre> </li>
+    <li> 
+        <h3>Start the Development Server</h3> 
+        <p>Run the server to start your application:</p> 
+        <pre>php artisan serve</pre>
+    </li> 
+</ol>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h3>Why Livewire and FluxUi</h3>
+<p>
+    FlexUI and Livewire complement each other perfectly by enhancing the development experience. FlexUI, with its flexible design system, allows for a responsive and user-friendly interface. Livewire, on the other hand, brings dynamic functionality without needing to write much JavaScript. Together, they streamline the process of building modern, interactive applications, allowing developers to focus on business logic while maintaining a great user interface. Using FlexUi s for consistent of my UI. :)
+</p>
